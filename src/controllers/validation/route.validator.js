@@ -16,7 +16,7 @@ exports.validateBody = (req) => {
 };
 
 exports.verifyCaptcha = async (req, res, next) => {
-  const recaptchaSecret = "6LcVbuUlAAAAAAE8xkTFlMw52uSrNdrGBfdriLYi";
+  const recaptchaSecret = "APIKEY";
   const recaptchaResponse = req.body["g-recaptcha-response"];
 
   try {
